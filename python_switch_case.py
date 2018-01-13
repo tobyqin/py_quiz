@@ -18,13 +18,8 @@ class switch:
 
 # example
 def cn(): pass
-
-
 def us(): pass
-
-
 def default(): pass
-
 
 switch("cn").case("cn", cn).case("us", us).default(default)
 # if language = "cn", only method <cn> will be invoked.
